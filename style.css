@@ -1,0 +1,511 @@
+@font-face {
+    font-family: sprite;
+    src: url(./AktivGroteskCd_W_Blk.ttf);
+}
+body{
+    margin: 0;
+    overflow-x: hidden;
+    background:#009b4e;
+    font-family: sprite;
+    
+}.header{
+    width: 100%;
+    height: 100px;
+    background:#009b4e;
+  
+    position: fixed;
+}
+
+.navigation{
+    height: 90px;   
+    margin: auto;
+   
+    width: 95%;
+}.logo{
+    width: 15%;
+    height: 90px;
+   
+    
+    float: left;
+}
+.product{
+width: 40%;
+height: 90px;
+
+float: left;
+display: flex;
+justify-content: space-evenly;
+color: white;
+font-size: 20px;
+
+cursor: pointer;
+}.icons{
+    width: 25%;
+    height: 90px;
+   
+    float: right;
+    margin-right: -72px;
+
+}.sprite{
+    width: 70%;
+    height: 50px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+h5{
+    margin-top: 40px;
+}
+
+
+.product1:hover{
+    
+    color: black;
+}
+.sprite-zero:hover{
+   
+    color: black;
+}
+.creator:hover{
+   
+    color: black;
+}
+.buy:hover{
+   
+    color: black;
+}
+  
+
+.facebook{
+    width: 15%;
+    height: 90px;
+  
+   float: left;
+
+}
+.fb{
+    padding-top: 40px;
+    width: 43%;
+    height: 25px;
+    cursor: pointer;
+
+}
+.twitter{
+   
+    width: 15%;
+    height: 90px;
+  border-radius: 50%;
+    float: left;
+    
+}.tw{
+    padding-top: 40px;
+    width: 43%;
+    height: 25px;
+    cursor: pointer;
+}
+
+.youtube{
+    width: 15%;
+    height: 90px;
+    
+    float: left;
+
+}
+.yt{
+    padding-top: 40px;
+    width: 43%;
+    height: 25px; 
+    cursor: pointer;
+}
+.instagram{
+    width: 15%;
+    height: 90px;
+   
+    float: left;
+}
+.insta{
+    padding-top: 40px;
+    width: 43%;
+    height: 25px; 
+    cursor: pointer;
+}.spotify{
+    width: 15%;
+    height: 90px;
+   
+    float: left; 
+}.spoti{
+    padding-top: 40px;
+    width: 43%;
+    height: 25px;  
+    cursor: pointer;
+}
+.profile{
+    width: 90px;
+    height: 95px;
+   
+    float: left;
+    cursor: pointer;
+    margin-top: 44px;
+    
+}
+.prof{
+    padding-top: 40px;
+    width: 43%;
+    height: 25px; 
+    padding-left: 10px; 
+    cursor: pointer;
+    background-color: transparent;
+   
+    
+    
+}
+
+.vd{
+    margin-top: 90px;
+   width: 100%;
+   height: 100%;
+
+
+}.s-body{
+   width: 105%; 
+   background: rgb(173,29,64);
+   height: 550px;
+margin: -25px;
+padding-top: 30px;
+
+}
+.details{
+    width: 43%;
+     color: white;
+    height: 440px;
+    padding-top: 0;
+    margin-left: 370px;
+    text-align: left;
+   
+
+}
+.para1{
+    font-style: inherit;
+    font-weight: bold;
+    font-size: 43px;
+}
+.email{
+    
+    width: 90%;
+    height: 40px;
+    border-radius: 50px;
+    border:none;
+}.month{
+    width: 30%;
+    height: 50px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.day{
+    
+    width: 30%;
+    height: 50px;
+    border-radius: 50px;
+    font-weight: bold;
+   
+
+}
+.year{
+    width: 30%;
+    height: 50px;
+    border-radius: 50px; 
+    font-weight: bold;
+}
+.check{
+    padding-top: 30px;
+  width: 100%;
+  height: 150px;
+   
+}.join{
+width: 90%;
+height: 50px;
+border-radius: 50px;
+color: white;
+background: rgb(173,29,64);
+   cursor: pointer;
+border: 1px solid white;
+
+}
+.join:hover{
+    background: black;
+    color:red;
+    
+}
+.t-body{
+    width: 100%;
+    height: 500px;
+    background:white;
+}
+.left{
+    width: 50%;
+    height: 500px;
+   
+    float: left;
+}
+.right{
+    width: 50%;
+    height: 500px;
+    background: red;
+    float: right;
+    
+}
+.text{
+    font-size: 60px;
+    color: green;
+     font-weight: bold;
+     
+    
+}
+.l-text{
+    width: 90%;
+    height: 250px;
+   
+    margin-left: 90px;
+    margin-top: 100px;
+    word-spacing: 10px;
+    line-height: 60px;
+    font-weight: bold;
+
+    
+}
+.r-image{
+  width: 100%;
+  height: 500px;
+  
+}
+.last-body{
+width: 100%;
+height: 350px;
+background: rgb(0,155,78);
+
+}
+.last-left{
+    width: 50%;
+    height:300px;
+   
+    float: left;
+    
+}
+.last-sprite{
+    width: 30%;
+    height:100px;
+ 
+ margin-left: 180px;
+    float: left;
+ padding-top: 100px;
+   
+}
+.sprite-pic{
+    
+    width: 70%;
+    height: 50px;
+    padding-top: 20px;
+    cursor: pointer;
+
+}
+.last-logo{
+    width: 37%;
+    height: 200px;
+  
+    float: right;
+   padding-top: 52px; 
+}
+.fb-logo{
+    width: 13%;
+    height: 50px;
+   
+   float: left;
+
+
+}
+.last-fb{
+width: 80%;
+height: 30px;
+ cursor: pointer;
+}
+.last-fb:hover{
+    scale: 1.2;
+}
+.twi-logo{
+    width: 15%;
+    height: 50px;
+    float: left;
+
+}
+.l-twitter{
+    width: 80%;
+height: 30px;
+ cursor: pointer;
+}
+.l-twitter:hover{
+    scale: 1.2;
+}
+
+
+.you-log{
+    width: 15%;
+    height: 50px;
+   
+    float: left;
+}   
+.l-youtube{
+    width: 80%;
+height: 30px; 
+cursor: pointer;
+}
+.l-youtube:hover{
+    scale: 1.2;
+}
+.insta-logo{
+    width: 15%;
+    height: 50px;
+    
+    float: left;
+
+}
+.l-insta{
+    width: 80%;
+    height: 30px;
+    cursor: pointer;    
+}.l-insta:hover{
+    scale: 1.2;
+}
+
+.spotify-logo{
+    width: 14%;
+    height: 50px;
+   
+    float: left;
+}.l-spoti{
+    width: 80%;
+    height: 30px;
+    cursor: pointer;
+}.l-spoti:hover{
+    scale: 1.2;
+}
+.connect{
+   color: white;
+    padding-left: 15px;
+    font-size: 13px;
+   
+}
+.menu{
+  width: 45%;
+  height: 350px;
+  font-size: 13px;
+  float: right;  
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.menu1{
+    padding-top: 30px;
+}
+
+
+.l-sprite:hover{
+    color: black    ;
+    cursor: pointer;
+}
+.zero:hover{
+    color: black;
+    cursor: pointer;
+}
+.lymonade:hover{
+color: black;
+cursor: pointer;
+}
+.cherry:hover{
+    color: black;
+    cursor: pointer;
+}
+.mix:hover{
+
+    color: black;
+    cursor: pointer;
+}
+.Cranberry:hover{
+    color:black;
+    cursor: pointer;
+}
+.sugar:hover{
+    color: black;
+    cursor: pointer;
+}
+.menu1{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+   
+    list-style-type: none;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+      line-height: 35px;
+    
+}
+.footer{
+    width: 105%;
+   height:100px ;
+   background: #009b4e;
+    margin-top: -16px;
+   
+}
+.footer1{
+    width: 100%;
+    height: 20px;
+    color: #fff;
+    text-align: center;
+  
+}.footer2{
+    width: 70%;
+    height: 60px;
+   
+    margin: auto;
+    
+    
+}.para3{
+    text-align: center;
+    
+   
+}.menu2{
+    list-style-type:none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+}.Support:hover{
+    color: black;
+    cursor: pointer;
+}
+.term:hover{
+    color: black;
+    cursor: pointer;
+}
+.privacy:hover{
+    color: black;
+    cursor: pointer;
+}
+.california:hover{
+    color: black;
+    cursor: pointer;
+}
+.personal:hover{
+    color: black;
+    cursor: pointer;
+}
+.sitemap:hover{
+    color: black;
+    cursor: pointer;
+}
+.rules:hover{
+    color: black;
+    cursor: pointer;
+}
